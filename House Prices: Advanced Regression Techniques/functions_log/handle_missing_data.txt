@@ -1,0 +1,165 @@
+
+
+Handle missing data for the category: BsmtUnfSF
+Filling missing data strategy -> Fill missing data with value: 0
+
+
+Handle missing data for the category: TotalBsmtSF
+Filling missing data strategy -> Fill missing data with value: 0
+
+
+Handle missing data for the category: GarageArea
+Filling missing data strategy -> Fill missing data with value: 0
+
+
+Handle missing data for the category: BsmtFinSF1
+Filling missing data strategy -> Fill missing data with value: 0
+
+
+Handle missing data for the category: BsmtFinSF2
+Filling missing data strategy -> Fill missing data with value: 0
+
+
+Handle missing data for the category: BsmtFinType1
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: MasVnrType
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: GarageFinish
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: Exterior1st
+Filling missing data strategy : Most frequent
+Most frequent value for the training set:VinylSd
+Most frequent value for the test set:VinylSd
+No binarization chosen!
+
+
+Handle missing data for the category: SaleType
+Filling missing data strategy : Most frequent
+Most frequent value for the training set:WD
+Most frequent value for the test set:WD
+No binarization chosen!
+
+
+Handle missing data for the category: MiscFeature
+Dropped the feature, reason : If I filled it with None, it would be much more frequent than the rest of the values, nece, too little variance
+
+
+Handle missing data for the category: BsmtHalfBath
+Filling missing data strategy -> Fill missing data with value: 0
+
+
+Handle missing data for the category: BsmtFullBath
+Filling missing data strategy -> Fill missing data with value: 0
+
+
+Handle missing data for the category: GarageCond
+Dropped the feature, reason : TA has much higer value than all the rest - non-intuitive
+
+
+Handle missing data for the category: BsmtFinType2
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: Alley
+Dropped the feature, reason : Too little variance
+
+
+Handle missing data for the category: BsmtQual
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: Electrical
+Filling missing data strategy : Most frequent
+Most frequent value for the training set:SBrkr
+Most frequent value for the test set:SBrkr
+No binarization chosen!
+
+
+Handle missing data for the category: GarageYrBlt
+No action taken!
+
+
+Handle missing data for the category: BsmtCond
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: BsmtExposure
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: PoolQC
+Dropped the feature, reason : Too little variance
+
+
+Handle missing data for the category: FireplaceQu
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: Functional
+Dropped the feature, reason : To little variance
+
+
+Handle missing data for the category: Exterior2nd
+Filling missing data strategy : Most frequent
+Most frequent value for the training set:VinylSd
+Most frequent value for the test set:VinylSd
+No binarization chosen!
+
+
+Handle missing data for the category: KitchenQual
+Filling missing data strategy : Most frequent
+Most frequent value for the training set:TA
+Most frequent value for the test set:TA
+No binarization chosen!
+
+
+Handle missing data for the category: GarageQual
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: GarageType
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: MasVnrArea
+Filling missing data strategy -> Fill missing data with value: 0.0
+
+
+Handle missing data for the category: Utilities
+Dropped the feature, reason : No variance
+
+
+Handle missing data for the category: Fence
+Filling missing data strategy -> Fill missing data with value: None
+No binarization chosen!
+
+
+Handle missing data for the category: LotFrontage
+Filling missing data strategy -> Fill missing data with value: 0.0
+
+
+Handle missing data for the category: MSZoning
+Filling missing data strategy : Most frequent
+Most frequent value for the training set:RL
+Most frequent value for the test set:RL
+No binarization chosen!
+
+
+Handle missing data for the category: GarageCars
+Filling missing data strategy -> Fill missing data with value: 0

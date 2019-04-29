@@ -1,0 +1,257 @@
+Conversion process for the category : MSZoning
+Conversion method : Manual
+New name : MSZoningBin
+Number of values : 5
+RH : 2
+RM : 3
+RL : 4
+FV : 5
+
+
+Dropped the feature Street, reason: Too little variance, Pave is the dominant value by a huge margin
+
+
+Conversion process for the category : LotShape
+Conversion method : Manual
+New name : LotShapeBin
+Number of values : 2
+IR1,IR2,IR3 : 2
+
+
+Dropped the feature LandContour, reason: Lvl is the dominant value!
+
+
+Dropped the feature LotConfig, reason: No sense can be made of the data
+
+
+Dropped the feature LandSlope, reason: Too little variance
+
+
+Conversion process for the category : Neighborhood
+Conversion method : Manual
+New name : NeighborhoodBin
+Number of values : 7
+OldTown,Edwards,BrkSide : 2
+NPkVill,NAmes,SWISU,Blueste,Sawyer,Mitchel : 3
+SawyerW,Gilbert,NWAmes : 4
+Crawfor,ClearCr,CollgCr,Blmngtn : 5
+Timber,Somerst,Veenker : 6
+NridgHt,NoRidge,StoneBr : 7
+
+
+Dropped the feature Condition1, reason: apart from the Norm values, no other values are represented by sufficient number of a small number of instances
+
+
+Dropped the feature Condition2, reason: Same as Condition1
+
+
+Dropped the feature BldgType, reason: Data doesnt make usable sense
+
+
+Conversion process for the category : HouseStyle
+Conversion to numeric method : Manual (neccessary method):
+New name : HouseStyleBin
+Number of values : 3
+SFoyer,SLvl : 2
+2.5Fin,2Story,2.5Unf : 3
+
+
+Conversion process for the category : RoofStyle
+Conversion method : Manual
+New name : RoofStyleBin
+Number of values : 2
+Shed,Flat,Hip,Mansard : 2
+
+
+Dropped the feature RoofMatl, reason: Too little variance
+
+
+Conversion process for the category : Exterior1st
+Conversion to numeric method : Manual (neccessary method):
+New name : Exterior1stBin
+Number of values : 3
+ImStucc,CBlock,AsphShn,Stone,BrkComm,AsbShng,Stucco,WdShing,BrkFace,Plywood : 2
+VinylSd,CemntBd : 3
+
+
+Conversion process for the category : Exterior2nd
+Conversion to numeric method : Manual (neccessary method):
+New name : Exterior2ndBin
+Number of values : 3
+CBlock,Other,AsphShn,Stone,Brk Cmn,ImStucc,AsbShng,BrkFace,Stucco,Plywood,HdBoard : 2
+VinylSd,CmentBd : 3
+
+
+Conversion process for the category : MasVnrType
+Conversion method : Manual
+New name : MasVnrTypeBin
+Number of values : 2
+Stone : 3
+
+
+Conversion process for the category : ExterQual
+Conversion method : Manual
+New name : ExterQualBin
+Number of values : 4
+TA : 2
+Gd : 3
+Ex : 4
+
+
+Dropped the feature ExterCond, reason: Data doesnt make sense
+
+
+Conversion process for the category : Foundation
+Conversion method : Manual
+New name : FoundationBin
+Number of values : 2
+PConc : 2
+
+
+Conversion process for the category : BsmtQual
+Conversion method : Manual
+New name : BsmtQualBin
+Number of values : 5
+Fa : 2
+TA : 3
+Gd : 4
+Ex : 6
+
+
+Conversion process for the category : BsmtCond
+Conversion method : Manual
+New name : BsmtCondBin
+Number of values : 4
+Fa : 2
+TA : 3
+Gd : 4
+
+
+Conversion process for the category : BsmtExposure
+Conversion method : Manual
+New name : BsmtExposureBin
+Number of values : 5
+No : 2
+Mn : 3
+Av : 4
+Gd : 5
+
+
+Conversion process for the category : BsmtFinType1
+Conversion method : Manual
+New name : BsmtFinType1Bin
+Number of values : 4
+LwQ,BLQ : 2
+Rec,ALQ,Unf : 3
+GLQ : 4
+
+
+Conversion process for the category : BsmtFinType2
+Conversion method : Manual
+New name : BsmtFinType2Bin
+Number of values : 4
+LwQ,BLQ : 2
+Rec,ALQ,Unf : 3
+GLQ : 4
+
+
+Dropped the feature Heating, reason: Too little variance
+
+
+Conversion process for the category : HeatingQC
+Conversion method : Manual
+New name : HeatingQCBin
+Number of values : 5
+Fa : 2
+TA : 3
+Gd : 4
+Ex : 5
+
+
+Conversion process for the category : CentralAir
+Conversion method : Manual
+New name : CentralAirBin
+Number of values : 2
+Y : 2
+
+
+Conversion process for the category : Electrical
+Conversion to numeric method : Manual (neccessary method):
+New name : ElectricalBin
+Number of values : 2
+SBrkr : 2
+
+
+Conversion process for the category : KitchenQual
+Conversion method : Manual
+New name : KitchenQualBin
+Number of values : 4
+TA : 2
+Gd : 3
+Ex : 4
+
+
+Conversion process for the category : FireplaceQu
+Conversion method : Manual
+New name : FireplaceQuBin
+Number of values : 5
+Fa : 2
+TA : 3
+Gd : 4
+Ex : 5
+
+
+Conversion process for the category : GarageType
+Conversion method : Manual
+New name : GarageTypeBin
+Number of values : 3
+CarPort,Basment,2Types,Detchd : 2
+Attchd,BuiltIn : 3
+
+
+Conversion process for the category : GarageFinish
+Conversion method : Manual
+New name : GarageFinishBin
+Number of values : 4
+Unf : 2
+RFn : 3
+Fin : 4
+
+
+Conversion process for the category : GarageQual
+Conversion to numeric method : Manual (neccessary method):
+New name : GarageQualBin
+Number of values : 5
+Fa : 2
+TA : 3
+Gd : 4
+Ex : 5
+
+
+Conversion process for the category : PavedDrive
+Conversion method : Manual
+New name : PavedDriveBin
+Number of values : 3
+P : 2
+Y : 3
+
+
+Conversion process for the category : Fence
+Conversion method : Manual
+New name : FenceBin
+Number of values : 2
+GdPrv,None : 2
+
+
+Conversion process for the category : SaleType
+Conversion method : Manual
+New name : SaleTypeBin
+Number of values : 2
+New : 2
+
+
+Conversion process for the category : SaleCondition
+Conversion method : Manual
+New name : SaleConditionBin
+Number of values : 2
+Partial : 2
